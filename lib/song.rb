@@ -38,6 +38,9 @@ def initialize(name, artis_name, genre)
   @@genres << genre 
   @@count += 1 
 end 
+
+attr_accessor :
+
 end 
 
 
