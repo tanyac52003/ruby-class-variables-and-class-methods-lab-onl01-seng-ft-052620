@@ -30,7 +30,7 @@ def self.artists
   @@artists.uniq 
 end 
 
-def initialize(name, artis_name, genre)
+def initialize(name, artist_name, genre)
   @name = name 
   @artist = artist 
   @@artists << artist
@@ -39,7 +39,7 @@ def initialize(name, artis_name, genre)
   @@count += 1 
 end 
 
-attr_accessor :
+attr_accessor :artist, :artist_name, :genre 
 
 end 
 
